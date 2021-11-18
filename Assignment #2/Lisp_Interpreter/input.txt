@@ -1,0 +1,8 @@
+(+ 4 5)
+(not true)
+(not false)
+(equal 5 4)
+(equal 5 5)
+(less 2 7)
+(less 33 2)
+(exit)

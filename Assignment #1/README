@@ -1,0 +1,13 @@
+In part1 of my assignment, I used a header file for defining syntax elements.
+And then I created a gpp_lexer.l file. I write my code in here.
+The makefile creates a .c code and an execution code file.
+In makefile I changed name of that .c code to "gpp_lexer.c" because firtsly it becomes "lex.yy.c"
+After that you can use program with "./a.out filename" or "./a.out"
+
+NOTE : Lisp is a case insensitive language. So for example, I defined KW_AND for "and" or "AND".
+NOTE : There is 3 rules for error. First one is identifier will not with value. Second one is value will not start with zero. And unknown characters will be an error.
+
+
+In part2, I have just one source code. This code will be compiled with "clisp gpp_lexer.lisp filename" or "clisp gpp_lexer.lisp"
+
+Thank you..
